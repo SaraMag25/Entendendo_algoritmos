@@ -25,15 +25,15 @@ void binarySearch(int data_array[], int element, int len)
         }
     }
     cout<<"Element Not Found"<<endl ;
-    return ; //number not found
+    return ; //numero nao encontrado
 }
 int main()
 {
     int data_array[] = {2,10,23,44,100,121};
     int length = sizeof(data_array) / sizeof(int);
 
-    binarySearch(data_array, 3, length) ;  // not found case
-    binarySearch(data_array, 2, length) ; // found at corner case
-    binarySearch(data_array, 44, length) ; //found at middle case
+    binarySearch(data_array, 3, length) ;  // nao achado
+    binarySearch(data_array, 2, length) ; // achado no canto
+    binarySearch(data_array, 44, length) ; // no meio
     return 0;
 }
